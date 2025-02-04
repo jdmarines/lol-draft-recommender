@@ -174,7 +174,7 @@ print(f"Accuracy del modelo: {accuracy:.2f}")
 campeon_pred = model.predict([X.iloc[0]])
 print(f"Predicción para el primer campeón: {df.iloc[0]['Campeon']} -> Predicción: {campeon_pred}")
 
-pip install streamlit
+#pip install streamlit
 
 import streamlit as st
 import pandas as pd
